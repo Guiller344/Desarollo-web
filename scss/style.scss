@@ -393,8 +393,7 @@ display: flex;
 
 .img-container{
     
-    min-width: 800px;
-     object-fit: fill;
+ 
      margin-bottom: 40px;
 }
 
@@ -543,8 +542,9 @@ display: flex;
         } 
     .img-container {
         img {
-            min-width: 400px;
-            object-fit: fill;
+            width: 600px;
+            margin-left: 30px;
+            
         }
 
     }
@@ -554,16 +554,16 @@ display: flex;
 @media(max-width: 320px){
     .main-precios{
         h1{
-            font-size: 3em;
+            font-size: 2em;
         }
     
         p{
-            font-size: 1em;
+            font-size: 0.9em;
             width: 100%;
         }
     
         h2{
-            font-size: 1.3em;
+            font-size: 1em;
             max-width: 100%;
             
         }
@@ -574,9 +574,11 @@ display: flex;
         }
 
         .img-container {
+            
             img {
                 width: 300px;
-                object-fit: fill;
+                margin-left: 10px;
+               
                 /* ARREGLAR IMG */
                 
             }
