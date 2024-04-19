@@ -401,6 +401,34 @@ y mejorar margin.
 }
 
 /* Estilos servicios.html */
+.main-servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-servicios h1 {
+  font-size: 3.5em;
+}
+.main-servicios h2 {
+  font-size: 2em;
+}
+.main-servicios .container-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+.main-servicios .container-grid .card-grid p {
+  font-size: 1em;
+}
+.main-servicios .container-grid .card-grid img {
+  width: 210px;
+  height: 260px;
+  margin: 20px;
+}
+
 /* HAY QUE METER UN GRID */
 /* RESPONSIVE */
 /*Responsive Footer*/

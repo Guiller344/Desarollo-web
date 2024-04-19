@@ -472,6 +472,64 @@ display: flex;
 
 /* Estilos servicios.html */
 
+.main-servicios{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+
+
+        h1{
+
+            font-size: 3.5em;
+        }
+
+        h2{
+
+            font-size: 2em;
+        }
+   
+        .container-grid {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: auto auto; // Cambio aquí
+            gap: 20px;
+
+            .card-grid {
+
+                p{
+                    font-size: 1em;
+
+                }
+
+               img {
+                width: 210px;
+                height: 260px;
+                margin: 20px;
+               }
+            }
+        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* HAY QUE METER UN GRID */
 
