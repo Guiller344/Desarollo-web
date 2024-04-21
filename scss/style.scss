@@ -804,8 +804,217 @@ display: flex;
         }
         
       }
-   
-
-
-
  }
+
+ /*RESPONSIVE INDEX*/
+
+@media (max-width: 767px) and (min-width: 321px){
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction:column;
+      gap: 60px;
+
+      img{
+        min-width: 600px;
+      }
+      
+      div{
+              h1{
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            width: 60%;
+            }
+         }
+      }
+
+      .section-1 {
+
+
+            .content-img{
+                
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             gap:50px;
+                img{
+                    width: 600px;
+                }
+
+                h3{ 
+                    font-size: 2em;
+                    width: 100%;
+                    text-align: center;
+                    
+                }
+
+            }
+      }
+
+
+      .section-2{
+
+        .content-img-2{
+            gap:20px;
+
+            img{
+                min-width: 700px;
+                margin:30px;
+            }
+        }
+      }
+
+      .section-3 {
+
+        .content-text-3{
+            h2{
+                text-align: center;
+            }
+        }
+
+        .content-img-3{
+
+            img{
+                width: 700px;
+            }
+        }
+      }
+    }
+    
+    
+    @media (max-width: 320px){
+        main {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction:column;
+          gap: 60px;
+          margin: 10px;
+          margin-top:30px;
+    
+          img{
+            min-width: 300px;
+          }
+          
+          div{
+                  h1{
+                  
+                font-size: 1.8em;
+                
+                width: 100%;
+                position: relative;
+                bottom: -20px;
+                }
+
+               button{
+               display:none;
+               }
+             }
+          }
+    
+
+            .deco-intersection{
+
+                p { 
+                    font-size: 0.6em;
+                    text-align: center;
+                }
+            }
+
+
+
+
+
+
+
+          .section-1 {
+                
+                    .content-text{
+                        h2{
+                            width: 100%;
+                        font-size: 2em;
+                        text-align: center;
+                        
+                    }
+
+                    p{
+                        font-size: 1em;
+                        width: 100%;
+                        text-align: center;
+                    }
+                    } 
+                }
+    
+                .content-img{
+                    
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+                 gap:50px;
+                   img{
+                    width: 400px;
+                   }
+    
+                    h3{ 
+                        font-size: 1em;
+                        text-align: center;
+                         width: 1200%;
+                        
+                    }
+    
+                }
+          }
+    
+    
+          .section-2{
+    
+            .content-img-2{
+                gap:20px;
+    
+                img{
+                    min-width: 300px;
+                    margin:30px;
+                }
+            }
+
+            .content-text-2{
+
+                h2{
+                    font-size: 2em;
+                    text-align: center;
+                }
+
+                p{
+
+                    font-size: 1em;
+                    text-align: center;
+                }
+
+            }
+          }
+    
+          .section-3 {
+    
+            .content-text-3{
+                h2{
+                    text-align: center;
+                    font-size: 2em;
+                }
+
+                p{
+                    text-align: center;
+                    font-size: 1em;
+                }
+            }
+    
+            .content-img-3{
+    
+                img{
+                    width: 300px;
+                }
+            }
+          }
+        
+        
+        
