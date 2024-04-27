@@ -416,7 +416,7 @@ y mejorar margin.
 }
 .main-servicios .container-grid {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto auto;
   gap: 20px;
 }
@@ -617,7 +617,7 @@ y mejorar margin.
     gap: 60px;
   }
   main img {
-    min-width: 600px;
+    min-width: 500px;
   }
   main div h1 {
     font-size: 2.8em;
@@ -631,7 +631,7 @@ y mejorar margin.
     gap: 50px;
   }
   .section-1 .content-img img {
-    width: 600px;
+    min-width: 600px;
   }
   .section-1 .content-img h3 {
     font-size: 2em;
@@ -642,7 +642,7 @@ y mejorar margin.
     gap: 20px;
   }
   .section-2 .content-img-2 img {
-    min-width: 700px;
+    min-width: 300px;
     margin: 30px;
   }
   .section-3 .content-text-3 h2 {
@@ -695,7 +695,7 @@ y mejorar margin.
     gap: 50px;
   }
   .content-img img {
-    width: 400px;
+    width: 3%;
   }
   .content-img h3 {
     font-size: 1em;
@@ -729,4 +729,37 @@ y mejorar margin.
 }
 .section-3 .content-img-3 img {
   width: 300px;
+}
+
+/* SERVICIOS RESPONSIVE */
+@media (max-width: 767px) {
+  .main-servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main-servicios h1 {
+    font-size: 3.5em;
+  }
+  .main-servicios h2 {
+    font-size: 2em;
+  }
+  .main-servicios .container-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+  }
+  .main-servicios .container-grid .card-grid {
+    width: 50px;
+    height: 100px;
+  }
+  .main-servicios .container-grid .card-grid img {
+    width: 50px;
+    margin: 100px;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
 }/*# sourceMappingURL=style.css.map */
